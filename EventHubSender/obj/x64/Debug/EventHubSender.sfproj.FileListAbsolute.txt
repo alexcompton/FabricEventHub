@@ -1,0 +1,1 @@
+C:\Users\alex_compton\Desktop\EventHubFabric\EventHubSender\obj\x64\Debug\EventHubSender.sfprojResolveAssemblyReference.cache

@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "EventHubSender", "EventHubSender\EventHubSender.sfproj", "{5CAAC3D8-1951-4CED-9941-CAF4B6DCF71B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubSenderService", "EventHubSenderService\EventHubSenderService.csproj", "{69B87F3C-EEB9-4AF4-A91A-5DA2BF2A2C67}"
+EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "EventHubListener", "EventHubListener\EventHubListener.sfproj", "{FBD164F3-302A-44F4-8E18-A992B5B0181A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubListenerService", "EventHubListenerService\EventHubListenerService.csproj", "{D5D64FA2-86D7-4001-A48C-985F57688259}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CAAC3D8-1951-4CED-9941-CAF4B6DCF71B}.Debug|x64.ActiveCfg = Debug|x64
+		{5CAAC3D8-1951-4CED-9941-CAF4B6DCF71B}.Debug|x64.Build.0 = Debug|x64
+		{5CAAC3D8-1951-4CED-9941-CAF4B6DCF71B}.Debug|x64.Deploy.0 = Debug|x64
+		{5CAAC3D8-1951-4CED-9941-CAF4B6DCF71B}.Release|x64.ActiveCfg = Release|x64
+		{5CAAC3D8-1951-4CED-9941-CAF4B6DCF71B}.Release|x64.Build.0 = Release|x64
+		{5CAAC3D8-1951-4CED-9941-CAF4B6DCF71B}.Release|x64.Deploy.0 = Release|x64
+		{69B87F3C-EEB9-4AF4-A91A-5DA2BF2A2C67}.Debug|x64.ActiveCfg = Debug|x64
+		{69B87F3C-EEB9-4AF4-A91A-5DA2BF2A2C67}.Debug|x64.Build.0 = Debug|x64
+		{69B87F3C-EEB9-4AF4-A91A-5DA2BF2A2C67}.Release|x64.ActiveCfg = Release|x64
+		{69B87F3C-EEB9-4AF4-A91A-5DA2BF2A2C67}.Release|x64.Build.0 = Release|x64
+		{FBD164F3-302A-44F4-8E18-A992B5B0181A}.Debug|x64.ActiveCfg = Debug|x64
+		{FBD164F3-302A-44F4-8E18-A992B5B0181A}.Debug|x64.Build.0 = Debug|x64
+		{FBD164F3-302A-44F4-8E18-A992B5B0181A}.Debug|x64.Deploy.0 = Debug|x64
+		{FBD164F3-302A-44F4-8E18-A992B5B0181A}.Release|x64.ActiveCfg = Release|x64
+		{FBD164F3-302A-44F4-8E18-A992B5B0181A}.Release|x64.Build.0 = Release|x64
+		{FBD164F3-302A-44F4-8E18-A992B5B0181A}.Release|x64.Deploy.0 = Release|x64
+		{D5D64FA2-86D7-4001-A48C-985F57688259}.Debug|x64.ActiveCfg = Debug|x64
+		{D5D64FA2-86D7-4001-A48C-985F57688259}.Debug|x64.Build.0 = Debug|x64
+		{D5D64FA2-86D7-4001-A48C-985F57688259}.Release|x64.ActiveCfg = Release|x64
+		{D5D64FA2-86D7-4001-A48C-985F57688259}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
